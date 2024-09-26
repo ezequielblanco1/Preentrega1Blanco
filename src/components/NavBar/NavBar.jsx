@@ -1,14 +1,17 @@
 import React from 'react'
-import './NavBar.css'
+import  CardWidget  from '../CartWidget'
 
-const NavBar = () => {
+
+export const NavBar = () => {
     return (
         <header className="header"> 
 <a href="/" className="logo">Eze</a>
 <nav className="navbar">
 <a href="/">inicio</a>
 <a href="/">categorias</a>
-<a href="/">servicios</a>
+<a href="/">
+<CardWidget />
+</a>
 <a href="/">ingresar</a>
 
 
