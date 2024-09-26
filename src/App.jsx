@@ -13,7 +13,7 @@ function App() {
   return (
     <>
     <NavBar />
-    <ItemListContainer />
+    <ItemListContainer texto="1" />
     </>
   );
 }
